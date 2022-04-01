@@ -40,6 +40,7 @@ void Persona::ingresar()
     cout << "dni: ";
     cin >> dni;
      cout << "nombre: ";
+     cin.ignore();
      getline(cin, nombre);
 
     cout << "genero: ";

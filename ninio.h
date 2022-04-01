@@ -1,6 +1,5 @@
 
 
-
 #pragma once
 
 #include <string>
@@ -10,9 +9,12 @@ using namespace std;
 
 class Ninio : public Persona
 {
-    private:
+private:
     string tutor;
-    public:
+
+public:
     string getTutor();
     void setTutor(string);
+    void imprimir();
+    void ingresar();
 };

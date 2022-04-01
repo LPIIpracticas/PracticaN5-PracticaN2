@@ -13,6 +13,10 @@ class Adulto : public Persona
     string estadoCivil;
 public:
 string getEstadoCivil();
+
 void
- setEstadoCivil(string);
+ setEstadoCivil(string e);
+ 
+     void imprimir();
+    void ingresar();
 };
