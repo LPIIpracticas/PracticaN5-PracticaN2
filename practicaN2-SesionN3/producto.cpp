@@ -1,4 +1,4 @@
-//#pragma once
+#pragma once
 #include "producto.h"
 #include <string>
 #include <iostream>
